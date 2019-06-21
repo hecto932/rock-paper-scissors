@@ -1,0 +1,31 @@
+$rock-color: #63424B;
+$paper-color: #36504B;
+$scissors-color: #535353;
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.home {
+  display: block;
+  margin: 0 auto;
+  width: 990px;
+}
+
+.home-line {
+  position: relative;
+  width: 8%;
+  border: 4px solid #88b3e3;
+  margin: 0 auto;
+  top: -14px;
+}
+
+@media (max-width: 989px) {
+  .home {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  
+  }
+}

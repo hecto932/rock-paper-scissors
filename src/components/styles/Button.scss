@@ -1,0 +1,37 @@
+$rock-color: #63424B;
+$paper-color: #36504B;
+$scissors-color: #535353;
+
+.btn {
+  width: 256px;
+  display: inline-block;
+  padding: 1em;
+  border-radius: 13px;
+  margin: 1em;
+}
+
+.btn img {
+  object-fit: cover;
+}
+
+.btn-paper {
+  border: 7px solid $paper-color;
+}
+
+.btn-scissors {
+  border: 7px solid $scissors-color;
+}
+
+.btn-rock {
+  border: 7px solid $rock-color;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 128px;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 13px;
+    margin: 1em;
+  }
+}

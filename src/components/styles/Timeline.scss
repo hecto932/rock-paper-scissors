@@ -1,0 +1,19 @@
+.timeline {
+  text-align: center;
+  width: 100%;
+}
+
+.play {
+  width: inherit;
+  margin: 1em 0;
+}
+
+.division {
+  display: inline-block;
+  width: 50%;
+  border: 1px solid #b3b3b3;
+  vertical-align: text-top;
+  top: -18px;
+  position: relative;
+  margin: 0em 1em;
+}

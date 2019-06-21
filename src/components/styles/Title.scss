@@ -1,0 +1,27 @@
+$rock-color: #63424B;
+$paper-color: #36504B;
+$scissors-color: #535353;
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.paper-text{
+  color: $paper-color;
+}
+
+.scissors-text{
+  color: $scissors-color;
+}
+
+.rock-text{
+  color: $rock-color;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
