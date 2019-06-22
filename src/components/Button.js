@@ -2,14 +2,14 @@ import React from "react";
 
 import "./styles/Button.scss";
 
-import PaperImg from '../../assets/images/paper.png'
 import RockImg from '../../assets/images/rock.png'
+import PaperImg from '../../assets/images/paper.png'
 import ScissorsImg from '../../assets/images/scissors.png'
 
 const images = {
   rock: RockImg,
-  scissors: ScissorsImg,
-  paper: PaperImg
+  paper: PaperImg,
+  scissors: ScissorsImg
 }
 
 const Button = props => {

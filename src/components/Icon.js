@@ -8,8 +8,8 @@ import MiniScissorsImg from '../../assets/images/mini-s.png'
 
 const images = {
   r: MiniRockImg,
-  s: MiniPaperImg,
-  p: MiniScissorsImg
+  p: MiniPaperImg,
+  s: MiniScissorsImg
 }
 
 const Icon = props => {
