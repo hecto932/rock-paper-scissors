@@ -1,27 +1,33 @@
 {
-  "name": "react-init",
+  "name": "rock-paper-scissors",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple React.js application to play rock,paper and scissors",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js"
+    "build:dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack",
+    "build:prod": "webpack -p --env.NODE_ENV=production"
   },
-  "author": "Jorge Chavez",
-  "license": "ISC",
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "path": "^0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
     "webpack-dev-server": "^3.3.1"

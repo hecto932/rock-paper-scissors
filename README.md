@@ -2,19 +2,19 @@
 
 A simple webapp created using React.js
 
-## How to use it
-
-1. Download or clone the repository
-2. 
+![capture](./mocks/final.png)
 
 ## To start your App
 
+* Clone the repository
 * Install dependencies with `npm install`
 * Start the app with `npm run start`
 
-Now you can visit `localhost:3000` from your browser.
+Now you can visit `http://localhost:3000` from your browser.
 
-Now you can visit localhost:4000 from your browser.
+## DEMO
+
+[LIVE](https://hecto932.github.io/rock-paper-scissors)
 
 ### Note
 You will be using `https://smartplay.afiniti.com/v1/play/` API in order to play with CPU.
