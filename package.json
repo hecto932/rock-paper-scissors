@@ -8,7 +8,7 @@
     "build": "webpack",
     "build:prod": "webpack -p --env.NODE_ENV=production"
   },
-  "author": "Hector Flores <hecto932@gmail.com>",
+  "author": "Hector Flores <hecto932@gmail.com>, Jorge Chavez <jchavez@nearsoft.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^16.8.6",
